@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Opem+Sans&family=Poppins:wght@400;600&display=swap');
+
+.huddle {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: hsl(257, 40%, 49%) url("https://wallpapercave.com/wp/wp6638441.png") fixed;
+    padding: 50px 60px;
+}
+
+header img {
+    width: 250px;
+    opacity: 0.6;
+}
+
+main {
+    display: flex;
+    padding-top: 85px;
+    justify-content: space-between;
+}
+
+.left {
+    padding-right: 2.5em;
+    opacity: 0.8;
+}
+
+.right {
+    color: #fff;
+}
+
+h1 {
+    font-size: 2.5em;
+    font-family: 'Poppins';
+    padding-bottom: 20px;
+}
+
+h1:hover {
+    color: hsl(276, 69%, 71%);
+}
+
+p {
+    line-height: 1.7;
+    opacity: 0.8;
+}
+
+p:hover {
+    color: hsl(39, 73%, 50%);
+}
+
+button {
+    padding: 15px 60px;
+    margin-top: 30px;
+    border-radius: 5rem;
+    border: 0;
+    cursor: pointer;
+    color: hsl(257, 40%, 49%);
+    font-size: 1em;
+    font-weight: 600;
+}
+
+button:hover {
+    color: #fff;
+    background: hsl(209, 69%, 71%);
+}
+
+footer {
+    text-align: right;
+}
+
+.fab {
+    border: 2px solid #fff;
+    padding: 10px 10px;
+    border-radius: 50%;
+    margin-left: 20px;
+    color: #fff;
+}
+
+.fa-facebook-f {
+    padding: 10px 13px;
+}
+
+.fab:hover {
+    color: hsl(300, 69%, 71%);
+    border-color: hsl(300, 69%, 71%);
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1000px) {
+    
+    main {
+        flex-direction: column;
+    }
+
+    .left img {
+        width: 100%;
+    }
+
+    .right {
+        padding-top: 40px;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 1.8em;
+    }
+
+    button {
+        padding: 15px 90px;
+    }
+
+    footer {
+        text-align: center;
+        padding-top: 80px;
+    }
+}
